@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CardDeliveryService.DataAccess\CardDeliveryService.DataAccess.csproj" />
+    <ProjectReference Include="..\CardDeliveryService.Domain\CardDeliveryService.Domain.csproj" />
+    <ProjectReference Include="..\CardDeliveryService.DTOs\CardDeliveryService.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>
