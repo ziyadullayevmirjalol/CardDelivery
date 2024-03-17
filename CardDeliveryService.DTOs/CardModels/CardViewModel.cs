@@ -1,6 +1,4 @@
-﻿using CardDeliveryService.Domain.Enums;
-
-namespace CardDeliveryService.DTOs.CardModels;
+﻿namespace CardDeliveryService.DTOs.CardModels;
 
 public class CardViewModel
 {
